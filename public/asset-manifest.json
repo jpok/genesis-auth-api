@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee7d3db2.css",
+    "main.js": "/static/js/main.ceefcafe.js",
+    "static/media/Futura XBlk BT.ttf": "/static/media/Futura XBlk BT.a94e073ab6ba0739c5a8.ttf",
+    "static/media/discord.png": "/static/media/discord.0212ca068480618f8e31.png",
+    "static/media/instagram.png": "/static/media/instagram.aaa207e2a8befba56120.png",
+    "index.html": "/index.html",
+    "main.ee7d3db2.css.map": "/static/css/main.ee7d3db2.css.map",
+    "main.ceefcafe.js.map": "/static/js/main.ceefcafe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee7d3db2.css",
+    "static/js/main.ceefcafe.js"
+  ]
+}
