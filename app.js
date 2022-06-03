@@ -11,9 +11,9 @@ const path = require('path')
 
 app.use(express.static(path.join(__dirname + "/public")))
 
-app.use(cors({
-  origin: 'http://localhost:3001'
-}));
+// app.use(cors({
+//   origin: 'http://localhost:3001'
+// }));
 
 const port = process.env.PORT || 3000;
 
