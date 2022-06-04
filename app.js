@@ -9,7 +9,7 @@ const cors = require('cors')
 const app = express()
 const path = require('path')
 
-app.use(express.static(path.join(__dirname + "/public")))
+app.use(express.static(path.join(__dirname + "/build")))
 
 // app.use(cors({
 //   origin: 'http://localhost:3001'
@@ -21,7 +21,8 @@ const allowListAddresses = [
   '0x6D94bE6864947a89B1997eEF3Dd2d7dEa108CfcD',
   '0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc',
   '0x90f79bf6eb2c4f870365e785982e1f101e93b906',
-  '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266'
+  '0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266',
+  '0xAA9fb8Bb49640610FFFB6f4284ED373eE3F3029B'
 ];
 
 const wlNodes = allowListAddresses.map(a => keccak256(a));
@@ -46,7 +47,7 @@ app.get('/login/:address', function (req, res) {
 
 app.listen(port, () => {
   console.log(`whitelist auth app listening on port ${port}`);
-  // console.log(wlTree.getHexRoot()); 
+  console.log(wlTree.getHexRoot()); 
 })
 
 function getHashToken(address) {  

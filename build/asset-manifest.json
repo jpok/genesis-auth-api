@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a652074.css",
+    "main.js": "/static/js/main.5e9ad1b7.js",
+    "static/media/Futura XBlk BT.ttf": "/static/media/Futura XBlk BT.a94e073ab6ba0739c5a8.ttf",
+    "static/media/discord.png": "/static/media/discord.0212ca068480618f8e31.png",
+    "static/media/instagram.png": "/static/media/instagram.aaa207e2a8befba56120.png",
+    "index.html": "/index.html",
+    "main.8a652074.css.map": "/static/css/main.8a652074.css.map",
+    "main.5e9ad1b7.js.map": "/static/js/main.5e9ad1b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a652074.css",
+    "static/js/main.5e9ad1b7.js"
+  ]
+}
